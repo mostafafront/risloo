@@ -48,7 +48,7 @@ export async function GET(req: NextRequest) {
     const filteredData: {}[] = data.filter((_item: {}, index: number) => (index >= start && index <= end))
     // console.log(filteredData)
 
-    return new Response(JSON.stringify(filteredData), {
+    return new Response(JSON.stringify(filteredData), { 
         headers: {
             "content-type" : "application/json"
         }
