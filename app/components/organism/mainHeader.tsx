@@ -1,11 +1,11 @@
 import React from 'react'
+import HeaderLogo from '../atom/headerLogo'
 // import HeaderLogo from '../organism/mainHeader'
 
-export default function mainHeader() {
+export default function MainHeader() {
   return (
-    <div className='bg-white py-3 flex justify-center items-center'>
-        {/* <HeaderLogo/> */}
-        asdf
+    <div className='bg-bgWhite py-3 flex justify-center items-center shadow-[0px_5px_10px_#80808040] rounded-b-2xl'>
+        <HeaderLogo/>
     </div>
   )
 }
