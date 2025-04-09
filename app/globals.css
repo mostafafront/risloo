@@ -9,3 +9,7 @@
   --color-bgBlue: var(--blue);
   --color-bgWhite: var(--white);
 }
+
+.container{
+  @apply px-3;
+}

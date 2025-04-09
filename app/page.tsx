@@ -7,7 +7,10 @@ export default function Home() {
     <main>
       <section className="flex flex-col gap-4 justify-center items-center">
         <HeroSection />
-        <Psychologies/>
+        <div className="container m-auto">
+          <Psychologies />
+          <div className="scrollViewElem"></div>
+        </div>
       </section>
     </main>
   );

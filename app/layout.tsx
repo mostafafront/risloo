@@ -24,9 +24,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html dir="rtl" lang="fa">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`} cz-shortcut-listen="true"
+        className={`${geistSans.variable} ${geistMono.variable} antialiased  bg-bgBlue`} cz-shortcut-listen="true"
       >
             <MainHeader/>
         {children}
