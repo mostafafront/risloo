@@ -1,4 +1,4 @@
-[
+export const data = [
   {
     "id": "RS966666D",
     "manager": {
