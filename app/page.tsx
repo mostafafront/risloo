@@ -9,7 +9,6 @@ export default function Home() {
         <HeroSection />
         <div className="container m-auto">
           <Psychologies />
-          <div className="scrollViewElem"></div>
         </div>
       </section>
     </main>
