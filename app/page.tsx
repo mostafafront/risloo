@@ -1,11 +1,13 @@
 import Image from "next/image";
-import Logo from "./components/atom/headerLogo";
-import MainHeader from "./components/organism/mainHeader";
+import HeroSection from "./components/organism/heroSection";
 
 export default function Home() {
   return (
-    <>
-    <MainHeader/>
-    </>
+    <main>
+      <section className="flex flex-col gap-4 justify-center items-center">
+        <HeroSection />
+        <div></div>
+      </section>
+    </main>
   );
 }
